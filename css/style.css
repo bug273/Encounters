@@ -245,3 +245,9 @@ a:hover{
   }
   
 }
+
+.logo img{
+  width:200px;
+  float: left;
+}
+
