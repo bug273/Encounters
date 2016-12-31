@@ -224,30 +224,10 @@ a:hover{
   animation: noise-anim-2 3s infinite linear alternate-reverse;
 }
 
-
-.mark1 {
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  -moz-animation: mark1 15s linear infinite;
-  -webkit-animation: mark1 15s linear infinite;
-  @-moz-keyframes mark1 {
-    0% {
-      -moz-transform: translateX(100%);
-      -webkit-transform: translateX(100%);
-      transform: translateX(100%);
-    }
-    100% {
-      -moz-transform: translateX(100%);
-      -webkit-transform: translateX(100%);
-      transform: translateX(100%);
-    }
-  }
-  
+.logo {
+  float: right;
 }
-
 .logo img{
   width:200px;
-  float: left;
 }
 
