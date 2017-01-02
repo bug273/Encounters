@@ -60,22 +60,60 @@
         <p class="lead"><img class="img-responsive" src="images/img-375.jpg">
           <footer class="text-center">ffmpeg + vim text editor</footer></p>
         <p><h2 class="text-center">Hͤ̊͂ͪ͋͑eͫ̓̄ͯ̅l̽͗̍̐lo̔̄ Ḡͪ̂l͋̃͋͐̀̅̒itc̋̏͌hͪ̚!̅͋̄͋ͪ̽̋</h2></p>
-        <p class="lead">Propuesta de inicio del taller, nuestro primer glitch como se hace con nuestro primer programa de codigo, </p>
+        <p class="lead">Propuesta de inicio del taller, crear nuestro primer glitch como se hace con nuestro primer programa de codigo, modificando una fotografia con un editor de texto.</br>
+        Dependiendo del Sistema Operativo nos encontraremos con alguno de los siguientes editores:
+        <ul>
+          <li>W̋ͭͣiͨ̊̈n̉̾͌̎͋d͋͒ȏ͋̽̇̿͌̅wͣ͊̓ͩ͐s̎ͮ̄: Notepad</li>
+          <li>OSX: Text</li>
+          <li>Linux: vim/nano/emacs/etc</li>
+        </ul></br>
+        <p class="lead"> Con cualquiera de estos podemos empezar a hacer glitches interesantes </p>
+        <h3 class="text-center">Côͨ̾͊nͨͩ͆ͬv̍̓ͪ̉̇ͪ̽er̍ͦ͗̆s̎̊̅ĭ̈̒̋ón̂</h3>
+        <p class="lead">Desde <a href="https://www.gimp.org/downloads/" target="_blank">Gimp</a> podemos convertir nuestras imagenes en multitud de formatos</p>
+        <p>Tambien hay algunas paginas web que nos permiten hacer la conversión de nuestras fotos a infinidad de <a href="https://convertio.co"> formatos</a></p>
+        <p class="lead">Para poder convertir imagenes al formato <strong>webp</strong> desde <b>Gimp</b> necesitamos instalar esta <a href="http://registry.gimp.org/node/25874">libreria</a> para Wndws y esta otra para <a href="https://github.com/nathan-osman/gimp-webp">OSX y Linux</a></p>
       </div><!-- container -->
     </section><!-- seccion imagenes -->
 
     <section class="gl-audio" id="gl-audio">
       <div class="container">
         <h2 class="sarrera text-center">Gl̅̓ͩͯ̑̆itc̀̑͂͒h͊͋ͧ̾͑͂ͮ ̊͆ͥ̑A͂̒͋̂̉ͫͪǔ̌ͣͯͫ̏d͌ͦ̅ͪ͗ͨiͭͭ͐ͬ͌̏̈́o͌̇̾</h2>
-
-
+        <p class="lead"><img class="img-responsive" src="images/audio.jpg" /></p>
+          <p class="lead text-center">Para trabajar con audio vamos a necesitar (si no lo tenemos previamente instalado) instalar un par de programas indispensables.</p>
+            <ol><li>Por un lado necesitaremos tener instalado el programa <a href="http://www.audacityteam.org/download/"><strong>AUDACITY </strong></a> que es un editor de audio multiplataforma que nos permitira trabajar tanto con audio como con imagenes y video.</li>
+               <li>Podemos instalar también algún programa como <a href="http://www.vst4free.com/free_vst.php?plugin=glitch_one&id=773"><strong> Glitch One</strong></a> que es un plugin gratuito, aunque hay infinidad que son de pago</p>
+               <audio id="medio" controls>
+                  <source src="images/makeup.mp3">
+               </audio>
+             <p>Audio hecho con una imagen modificada en audacity</p>
+               <audio id="medio" controls>
+                 <source src="images/pdaudio.mp3">
+               </audio></li>
+            </ol>
+        <p>Audio creado a partir de una fotografia mezclado con varios samples</p>
+        <p class="lead">Otro software que es intersante para poder estirar, recortar-repetir y aparentar el sonido de antiguas cintas de cassete es el famoso <a href="http://illformed.org/">Glitch </a>, un plugin que tiene dos versiones, la anterior que esta en deshuso y han dejado de darle soporte y la nueva version, que es una versión de pago.</p>
       </div><!-- container -->
     </section><!-- seccion audio -->
 
     <section class="gl-video" id="gl-video">
       <div class="container">
         <h2 class="sarrera text-center">Gͬ͋͊͒̾l̒̀ͣit͐̇̉͌ͥcͨ̀̅̚h ̑̈́̋V̂i͊̇ͤͦͨ̆dͪ̉̅e͗̓͐̃͋̃̽o͌́͛͗̌̄̐s̆̈́̈͆</h2>
-          <iframe width="640" height="480" src="https://www.youtube.com/embed/z_KmNZNT5xw?controls=0" frameborder="0" allowfullscreen></iframe>
+          <div class="embed-responsive embed-responsive-16by9 text-center">
+            <iframe  class="embed-responsive-item"  src="https://www.youtube.com/embed/z_KmNZNT5xw?controls=0" frameborder="0" allowfullscreen></iframe>
+          </div><!-- embed responsive -->
+          <p class="lead text-center">Para hacer glitch a un video, tenemos varias opiciones. Desde la mas sencilla que es utilizando el editor de texto, con el editor de texto hexadecimal o con los programas de edición de video mas conocidos como avidemux</p>
+          <p class="lead text-center">Es necesario, para poder utilizar <strong>Avidemux</strong>, que descarguemos <a href="https://sourceforge.net/projects/avidemux/files/avidemux/2.5.4/">la version 2.5</a>, que es la versión que permite copiar y pegar frames. Las posteriores versiones tienen esta función corregida porque lo tomaron como un fallo del programa y ya no permite realizar glitches.</p>
+          <p class="lead text-center">Estos son algunos ejemplos de lo que se puede hacer con el video.</p>
+          <div class="embed-responsive embed-responsive-16by9 text-center">
+            <video id="medio"  class="embed-responsive-item" width="680" height="420"  controls><source src="images/ae23.mp4"></video>
+              <p>Este es un video hecho con avidemux y vim</p>
+          </div><!-- embed responsive -->
+          <div class="embed-responsive embed-responsive-16by9 text-center">
+             <video id="medio"  class="embed-responsive-item" width="680" height="420"  controls><source src="images/THX-0273.mp4"></video>
+                <p>Este video esta hecho frame by frame, modificando foto a foto.</p>
+          </div><!-- embed responsive 2 -->
+          </p>
+       </p>
       </div><!-- container -->
     </section><!-- seccion video -->
 
@@ -83,6 +121,161 @@
     <section id="extra">
       <div class="container">
          <h3>E͒ͯ͆ͬx̽ͯ͗̄t̽̎r̓̆a</h3>
+         
+      <section id="pixelsortert">
+        <div class="container">
+    	   <h3 class="sarrera text-center">_::> Pixelsorter <::_</h3>
+           <p class="small text-center">Selecciona una imagen y juega con los parametros para modificarla.
+      Ninguna imagen se almacena en el servidor, el proceso se realiza localmente. Despues de modificarla con botón
+      derecho 'guardar como' puedes salvar tu imagen.</p>
+           <p><input type="file" onchange="process(this)"></p>
+	         <p><label><input type="checkbox" id="vertical" onchange="start()"> Vertical</label></p>
+	         <p><label><input type="checkbox" id="invert" onchange="start()"> Invertido</label></p>
+	         <p id="slider">Threshold: <input type="range" id="threshold" min="0" max="255" value="80" onchange="this.nextSibling.innerHTML= this.value; start()"><span>80</span></p>
+	         <canvas id="b" class="text-center"></canvas>
+	
+<script type="text/javascript">
+var b= document.getElementById('b');
+var c= b.getContext('2d');
+var threshold=0;
+var vertical= false, invert= false;
+
+function process(el){
+  f= el.files[0];
+  if (!f.type.match('image.*')) {
+	return alert('Not an image');
+  }
+
+var reader = new FileReader();
+reader.onload = fileReadComplete;
+reader.readAsDataURL(f);
+}
+
+var img= new Image();
+var fileReadComplete = function(e){
+	img.src = e.target.result;
+	(function(){
+		if (img.complete){
+		b.width= img.width;
+		b.height= img.height;
+		c.drawImage(img, 0, 0);
+		start();
+		}
+	else {
+		setTimeout(arguments.callee, 50);
+		}
+	})();
+};
+
+function start(){
+	c.drawImage(img, 0, 0);
+	threshold= parseInt(document.getElementById('threshold').value);
+	vertical= document.getElementById('vertical').checked;
+	invert= document.getElementById('invert').checked;
+	if (vertical) pixelSortV(); else pixelSortH();
+}
+
+function pixelSortH(){
+	for(var row= 0; row< b.height; row++){
+		var imdata= c.getImageData(0, row, b.width, 1);
+		var data= imdata.data;
+
+		var pixels= getPixelsArray(data);
+		
+		var start= 0;
+		var end= findValueLess(pixels, row, threshold, start);
+		while(start<b.width){
+			var range= pixels.splice(start, end-start);
+			range.sort(invert?simpleMeanSortInverted:simpleMeanSort);
+			pixels.splice.apply(pixels, [start,0].concat(range));
+			
+			start= end;
+			end= findValueLess(pixels, row, threshold, start+1);
+		}
+			
+		setDataFromPixelsArray(data, pixels);
+		c.putImageData(imdata, 0, row);
+	}
+}
+
+function pixelSortV(){
+	for(var col= 0; col< b.width; col++){
+		var imdata= c.getImageData(col, 0, 1, b.height);
+		var data= imdata.data;
+
+		var pixels= getPixelsArray(data);
+		
+		var start= 0;
+		var end= findValueLess(pixels, col, threshold, start);
+		while(start<b.height){
+			var range= pixels.splice(start, end-start);
+			range.sort(invert?simpleMeanSortInverted:simpleMeanSort);
+			pixels.splice.apply(pixels, [start,0].concat(range));
+			
+			start= end;
+			end= findValueLess(pixels, col, threshold, start+1);
+		}
+			
+		setDataFromPixelsArray(data, pixels);
+		c.putImageData(imdata, col, 0);
+	}
+}
+function getPixelsArray(data){
+	var p= [], c;
+	for (var i = 0; i < data.length/4; i++) {
+		c= i*4;
+		p.push({r: data[c+0], g: data[c+1], b: data[c+2]});
+	};
+	return p;
+}
+
+function simpleMeanSort(a,b){
+	var aa= (a.r+a.g+a.b)/3;
+	var bb= (b.r+b.g+b.b)/3;
+	return aa<bb?-1: (aa>bb?1:0);
+}
+function simpleMeanSortInverted(a,b){
+	var aa= (a.r+a.g+a.b)/3;
+	var bb= (b.r+b.g+b.b)/3;
+	return aa>bb?-1: (aa<bb?1:0);
+}
+
+function setDataFromPixelsArray(data, pixels){
+	var c;
+	for (var i = 0; i < pixels.length; i++) {
+		c= i*4;
+		data[c+0]= pixels[i].r;
+		data[c+1]= pixels[i].g;
+		data[c+2]= pixels[i].b;
+	}
+}
+
+function findValue(pixels, row, val, start){
+	for (var i=start; i< pixels.length; i++){
+		if (pixels[i].r==val.r && pixels[i].g==val.g && pixels[i].b==val.b) {
+			return i;
+		}
+	}
+	return pixels.length;
+}
+
+function findValueLess(pixels, row, val, start){
+	for (var i=start; i< pixels.length; i++){
+		if ((pixels[i].r+pixels[i].g+pixels[i].b)/3 < val) {
+			return i;
+		}
+	}
+	return pixels.length;
+}
+
+
+</script>
+
+      </div>
+  </section><!-- pixel sorter -->
+
+         
+         
               <div class="logo"><img src="images/logo.png"></div>
             <p>El codigo del banner me lo encontré <a href="http://codepen.io/lbebber/pen/ypgql" target="_blank"> aquí</a>
             <p>El codigo del pixelsorter esta </p><a href="http://feiss.be">aquí</a>. Y es de Diego F. Goberna.</p>
